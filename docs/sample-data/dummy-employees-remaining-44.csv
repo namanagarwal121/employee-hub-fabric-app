@@ -1,0 +1,45 @@
+EmployeeID,FullName,Email,Department,JobTitle,Salary,JoiningDate
+,Chetan Malhotra,chetan.malhotra@company.com,Engineering,Senior Software Engineer,1898000.00,2026-03-27
+,Preeti Shah,preeti.shah@company.com,Operations,Operations Manager,1420000.00,2026-03-30
+,Ritika Das,ritika.das@company.com,Data Engineering,Data Engineer,1069000.00,2026-03-30
+,Harsh Singh,harsh.singh@company.com,Operations,Operations Manager,1643500.00,2026-04-01
+,Shreya Dutta,shreya.dutta@company.com,Analytics,Senior BI Developer,1294000.00,2026-04-06
+,Mohit Saxena,mohit.saxena2@company.com,Analytics,Senior BI Developer,1428500.00,2026-04-06
+,Kiran Reddy,kiran.reddy@company.com,Analytics,Analytics Manager,1976500.00,2026-04-07
+,Kavita Chopra,kavita.chopra@company.com,Engineering,Engineering Manager,2235000.00,2026-04-17
+,Kiran Bansal,kiran.bansal@company.com,Engineering,Software Engineer,1184500.00,2026-04-17
+,Arjun Goyal,arjun.goyal@company.com,Engineering,QA Engineer,909000.00,2026-04-18
+,Jaya Menon,jaya.menon@company.com,Sales,Sales Executive,574000.00,2026-04-19
+,Farhan Gupta,farhan.gupta@company.com,Sales,Account Manager,973500.00,2026-04-22
+,Aarav Khan,aarav.khan@company.com,Customer Support,Support Team Lead,917500.00,2026-04-24
+,Jaya Chopra,jaya.chopra2@company.com,Analytics,Data Analyst,704500.00,2026-04-30
+,Nikhil Chopra,nikhil.chopra@company.com,Marketing,Marketing Executive,618500.00,2026-05-02
+,Neeraj Reddy,neeraj.reddy@company.com,Marketing,Marketing Executive,611500.00,2026-05-12
+,Ritika Malhotra,ritika.malhotra@company.com,Finance,Financial Analyst,871000.00,2026-05-17
+,Vivek Mehta,vivek.mehta@company.com,Sales,Account Manager,1124000.00,2026-05-26
+,Rhea Menon,rhea.menon@company.com,Operations,Operations Analyst,639000.00,2026-06-02
+,Dev Srinivasan,dev.srinivasan3@company.com,Marketing,Marketing Manager,1681500.00,2026-06-05
+,Manish Pillai,manish.pillai@company.com,Sales,Sales Executive,581500.00,2026-06-09
+,Suresh Jain,suresh.jain@company.com,Human Resources,Recruiter,579500.00,2026-06-13
+,Akash Reddy,akash.reddy@company.com,Analytics,Data Analyst,813500.00,2026-06-18
+,Anika Nair,anika.nair@company.com,Marketing,Content Strategist,744000.00,2026-07-01
+,Karan Bansal,karan.bansal2@company.com,Analytics,Data Analyst,1094500.00,2026-07-03
+,Kavita Varma,kavita.varma@company.com,Engineering,Senior Software Engineer,1307500.00,2026-07-05
+,Aditi Das,aditi.das@company.com,Engineering,QA Engineer,791000.00,2026-07-07
+,Pranav Malhotra,pranav.malhotra@company.com,Finance,Financial Analyst,957000.00,2026-07-07
+,Shreya Menon,shreya.menon@company.com,Data Engineering,Senior Data Engineer,1474000.00,2026-07-09
+,Siddharth Trivedi,siddharth.trivedi@company.com,Data Engineering,Data Engineer,1350500.00,2026-07-10
+,Sanjay Kumar,sanjay.kumar@company.com,Product,Product Analyst,917000.00,2026-07-11
+,Uday Desai,uday.desai@company.com,Analytics,Data Analyst,1096500.00,2026-07-23
+,Geeta Iyer,geeta.iyer2@company.com,Engineering,QA Engineer,726000.00,2026-07-24
+,Aarav Desai,aarav.desai@company.com,Engineering,Software Engineer,1101500.00,2026-07-30
+,Ishaan Gill,ishaan.gill@company.com,Data Engineering,Senior Data Engineer,1545000.00,2026-07-30
+,Varun Desai,varun.desai@company.com,Finance,Accountant,817000.00,2026-08-08
+,Anika Agarwal,anika.agarwal@company.com,Marketing,Marketing Executive,786000.00,2026-08-10
+,Varun Menon,varun.menon@company.com,Finance,Accountant,822000.00,2026-08-20
+,Aarav Pandey,aarav.pandey@company.com,Sales,Sales Manager,1768500.00,2026-09-14
+,Rahul Mehta,rahul.mehta@company.com,Data Engineering,Senior Data Engineer,1463000.00,2026-09-19
+,Akash Kulkarni,akash.kulkarni@company.com,Product,Product Manager,2015500.00,2026-09-27
+,Rahul Mishra,rahul.mishra@company.com,Engineering,QA Engineer,976000.00,2026-10-01
+,Zoya Bansal,zoya.bansal@company.com,Engineering,Engineering Manager,2899000.00,2026-10-05
+,Siddharth Saxena,siddharth.saxena@company.com,Operations,Operations Manager,1680000.00,2026-10-08
