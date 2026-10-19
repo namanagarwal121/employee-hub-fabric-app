@@ -3,6 +3,7 @@
 An incremental + CDC pipeline in Microsoft Fabric. It takes the Employee Hub app's operational data, cleans it, models it as a star schema, and serves it through a Power BI semantic model.
 
 > **Status: design.** This folder holds the architecture. Notebooks, the pipeline and the semantic model will be added here as they are built.
+> **Start here:** [step-by-step setup guide](docs/setup-guide.md).
 
 ![Architecture](docs/architecture.png)
 
