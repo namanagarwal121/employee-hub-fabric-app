@@ -77,6 +77,10 @@ rayfin/rayfin.yml   Fabric services: auth, data, static hosting
 docs/               SQL examples, sample CSVs, screenshots
 ```
 
+## Data platform
+
+[`data-platform/`](data-platform/) holds the analytics side: an incremental + CDC pipeline from this app's database into a star schema and a Power BI semantic model. See its [architecture](data-platform/README.md).
+
 ## Known limitations
 
 - Role changes require a redeploy, because the platform has no per-user role claim.
