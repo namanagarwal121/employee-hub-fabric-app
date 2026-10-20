@@ -80,6 +80,7 @@ docs/               SQL examples, sample CSVs, screenshots
 ## Data platform
 
 [`data-platform/`](data-platform/) holds the analytics side: an incremental + CDC pipeline from this app's database into a star schema and a Power BI semantic model. See its [architecture](data-platform/README.md).
+The Fabric items themselves are in [employee-hub-data-platform](https://github.com/namanagarwal121/employee-hub-data-platform), linked here as a submodule at `data-platform/fabric`.
 
 ## Known limitations
 

@@ -2,7 +2,7 @@
 
 An incremental + CDC pipeline in Microsoft Fabric. It takes the Employee Hub app's operational data, cleans it, models it as a star schema, and serves it through a Power BI semantic model.
 
-> **Status: design.** This folder holds the architecture. Notebooks, the pipeline and the semantic model will be added here as they are built.
+> **Built.** The Fabric items (lakehouse, notebooks, pipeline, warehouse, semantic model and report) live in their own repo, [employee-hub-data-platform](https://github.com/namanagarwal121/employee-hub-data-platform). It's included here as a submodule at [`fabric/`](fabric/).
 > **Start here:** [step-by-step setup guide](docs/setup-guide.md).
 
 ![Architecture](docs/architecture.png)
@@ -22,15 +22,18 @@ An incremental + CDC pipeline in Microsoft Fabric. It takes the Employee Hub app
 
 A Data Factory pipeline runs the steps on a schedule. It reads the watermark, runs bronze → silver → data-quality checks → gold, refreshes the semantic model, and logs the run to `pipeline_runs`.
 
-## Planned layout
+## Layout
 
 ```
 data-platform/
-  docs/          architecture diagram and design notes
-  notebooks/     01_bronze_ingest, 02_silver_transform, 03_gold_dimensional
-  pipelines/     Data Factory pipeline definition
-  sql/           checks and validation queries
-  semantic-model/  Power BI semantic model (TMDL)
+  docs/     architecture diagram and setup guide
+  fabric/   submodule: employee-hub-data-platform (Fabric Git integration)
+```
+
+To clone the app with the Fabric items included:
+
+```bash
+git clone --recurse-submodules https://github.com/namanagarwal121/employee-hub-fabric-app.git
 ```
 
 ## Later: real-time extension
