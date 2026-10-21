@@ -26,8 +26,9 @@ A Data Factory pipeline runs the steps on a schedule. It reads the watermark, ru
 
 ```
 data-platform/
-  docs/     architecture diagram and setup guide
-  fabric/   submodule: employee-hub-data-platform (Fabric Git integration)
+  docs/       architecture diagrams and setup guide
+  fabric/     submodule: employee-hub-data-platform (Fabric Git integration)
+  streaming/  producer/: the Python HR event simulator
 ```
 
 To clone the app with the Fabric items included:
@@ -36,6 +37,18 @@ To clone the app with the Fabric items included:
 git clone --recurse-submodules https://github.com/namanagarwal121/employee-hub-fabric-app.git
 ```
 
-## Later: real-time extension
+## Second source: a live HR event stream
 
-A generator streams attendance or timesheet events through Eventstream into an Eventhouse (KQL). They're joined to `DimEmployee` and added as facts in Gold.
+The app's database now has two writers: people using the app, and a live stream of HR events. Both land in the same SQL database, so the pipeline above is reused unchanged.
+
+![Streaming architecture](docs/streaming-architecture.png)
+
+<sub>Source: [`docs/streaming-architecture.svg`](docs/streaming-architecture.svg)</sub>
+
+1. **Producer.** [`streaming/producer`](streaming/producer/) is a Python HR simulator. It sends one JSON event per hire, salary change, promotion, transfer, name change or leaver to a Fabric **Eventstream** custom endpoint. It can also send invalid, duplicate and out-of-order events for testing.
+2. **Landing.** The Eventstream writes raw events to the lakehouse table `dbo.employee_events`.
+3. **Stream bronze.** The `Stream_notebook_bronze` notebook reads only new landing rows and keeps one row per `event_id`. It types and flattens each event and flags invalid ones with a reason instead of dropping them.
+4. **SQL-ready tables.** The same notebook compares each stream employee's newest valid event with the app's current row. It writes only the differences to `sql_ready`, one table per app table: inserts, updates, deletes and audit rows, plus a `rejects` table. Reruns never repeat a change, stale events never win, and newer edits made in the app are kept.
+5. **Apply.** These tables are copied into a `stream_stage` schema in the app's database. There, `sp_apply_stream_changes` applies them in one transaction and logs each run ([setup script](fabric/sql_database/stream_stage_setup.sql)).
+
+**Status.** Steps 1–4 are built. The notebook was tested end to end on local Spark with simulated landing and app tables. The setup script has been run in the app's database. The final step still needs wiring into the pipeline, because it needs the pipeline's connection to the app's SQL database.

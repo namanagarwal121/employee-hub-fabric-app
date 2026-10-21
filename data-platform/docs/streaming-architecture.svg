@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2320" height="1290" viewBox="0 0 2320 1290">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#151b24"/></marker>
+<radialGradient id="bronze" cx="35%" cy="30%"><stop offset="0" stop-color="#f6c79a"/><stop offset="1" stop-color="#a0522d"/></radialGradient>
+<radialGradient id="silver" cx="35%" cy="30%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#8f99a6"/></radialGradient>
+<radialGradient id="gold" cx="35%" cy="30%"><stop offset="0" stop-color="#fff3b0"/><stop offset="1" stop-color="#c99700"/></radialGradient><marker id="ahn" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6c4fd8"/></marker></defs>
+<rect width="2320" height="1290" fill="#ffffff"/>
+<text x="60" y="70" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="800" fill="#151b24" text-anchor="start" >Employee Hub · Two Sources, One Pipeline</text>
+<text x="60" y="106" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#5d6878" text-anchor="start" >Manual edits in the app and a live HR event stream both land in the app&#x27;s Fabric SQL database; the existing CDC pipeline is reused unchanged</text>
+<text x="60" y="168" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#5d6878" text-anchor="start" letter-spacing="1.5">SOURCE 1 · MANUAL  (existing)</text>
+<text x="60" y="588" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#6c4fd8" text-anchor="start" letter-spacing="1.5">SOURCE 2 · LIVE STREAM  (new)</text>
+<rect x="60" y="190" width="250" height="270" rx="22" fill="#ffffff" stroke="#b9c1cc" stroke-width="2.5"/>
+<g transform="translate(195,305) scale(1.3)"><rect x="-50" y="-40" width="100" height="78" rx="8" fill="#f4f7fb" stroke="#151b24" stroke-width="5"/>
+<path d="M-50,-32 a8,8 0 0 1 8,-8 h84 a8,8 0 0 1 8,8 v12 h-100z" fill="#e8384f" stroke="#151b24" stroke-width="5"/>
+<circle cx="-38" cy="-29" r="3.5" fill="#151b24"/><circle cx="-28" cy="-29" r="3.5" fill="#151b24"/><circle cx="-18" cy="-29" r="3.5" fill="#151b24"/>
+<g transform="translate(-14,12)"><ellipse rx="22" ry="8" fill="none" stroke="#2f80ed" stroke-width="4"/><ellipse rx="22" ry="8" transform="rotate(60)" fill="none" stroke="#2f80ed" stroke-width="4"/><ellipse rx="22" ry="8" transform="rotate(-60)" fill="none" stroke="#2f80ed" stroke-width="4"/><circle r="4.5" fill="#2f80ed"/></g>
+<rect x="18" y="-6" width="24" height="5" rx="2.5" fill="#151b24"/><rect x="18" y="6" width="24" height="5" rx="2.5" fill="#151b24"/><rect x="18" y="18" width="16" height="5" rx="2.5" fill="#151b24"/></g>
+<text x="185.0" y="398" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#151b24" text-anchor="middle" >Web App</text>
+<text x="185.0" y="426" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >Employee Hub · Fabric App</text>
+<text x="185.0" y="448" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >people add / edit / delete</text>
+<rect x="60" y="610" width="250" height="270" rx="22" fill="#fbfaff" stroke="#6c4fd8" stroke-width="2.5"/>
+<g transform="translate(185.0,725) scale(1.3)"><rect x="-40" y="-44" width="52" height="52" rx="14" fill="#3776ab" stroke="#151b24" stroke-width="5"/><rect x="-12" y="-14" width="52" height="52" rx="14" fill="#ffd43b" stroke="#151b24" stroke-width="5"/><circle cx="-26" cy="-30" r="5" fill="#ffffff"/><circle cx="26" cy="24" r="5" fill="#151b24"/></g>
+<text x="185.0" y="818" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#151b24" text-anchor="middle" >Python Producer</text>
+<text x="185.0" y="846" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >HR event simulator</text>
+<text x="185.0" y="868" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >hire · change · leave</text>
+<rect x="230" y="624" width="64" height="28" rx="14" fill="#6c4fd8"/>
+<text x="262" y="644" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle" >NEW</text>
+<rect x="410" y="610" width="250" height="270" rx="22" fill="#fbfaff" stroke="#6c4fd8" stroke-width="2.5"/>
+<g transform="translate(535.0,725) scale(1.25)"><circle r="44" fill="#13a89e" stroke="#151b24" stroke-width="4"/><path d="M8,-32 L-16,6 h14 l-6,28 l26,-40 h-15z" fill="#ffffff" stroke="#151b24" stroke-width="3" stroke-linejoin="round"/></g>
+<text x="535.0" y="818" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#151b24" text-anchor="middle" >Eventstream</text>
+<text x="535.0" y="846" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >custom endpoint source</text>
+<text x="535.0" y="868" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >Event Hub protocol</text>
+<rect x="580" y="624" width="64" height="28" rx="14" fill="#6c4fd8"/>
+<text x="612" y="644" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle" >NEW</text>
+<rect x="760" y="610" width="250" height="270" rx="22" fill="#fbfaff" stroke="#6c4fd8" stroke-width="2.5"/>
+<g transform="translate(885.0,725) scale(1.25)"><path d="M0,-46 C22,-18 38,0 38,18 a38,30 0 0 1 -76,0 C-38,0 -22,-18 0,-46z" fill="#2fb6a8" stroke="#151b24" stroke-width="5"/>
+<path d="M-28,14 q9,-8 18,0 t18,0 t18,0" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+<path d="M-24,30 q8,-7 16,0 t16,0 t16,0" fill="none" stroke="#bff0e9" stroke-width="4" stroke-linecap="round"/>
+<g transform="translate(34,-30)"><circle r="17" fill="#ffffff" stroke="#151b24" stroke-width="4"/><path d="M-8,-2 a9,9 0 0 1 15,-5 M8,2 a9,9 0 0 1 -15,5" fill="none" stroke="#5b4bb7" stroke-width="3.5" stroke-linecap="round"/><path d="M5,-11 l3,5 l-6,1z M-5,11 l-3,-5 l6,-1z" fill="#5b4bb7"/></g></g>
+<text x="885.0" y="818" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#151b24" text-anchor="middle" >Lakehouse Landing</text>
+<text x="885.0" y="846" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >stream.employee_events</text>
+<text x="885.0" y="868" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >raw events · replayable</text>
+<rect x="930" y="624" width="64" height="28" rx="14" fill="#6c4fd8"/>
+<text x="962" y="644" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle" >NEW</text>
+<rect x="1110" y="610" width="250" height="270" rx="22" fill="#fbfaff" stroke="#6c4fd8" stroke-width="2.5"/>
+<g transform="translate(1205.0,725) scale(1.2)"><rect x="-30" y="-38" width="60" height="76" rx="6" fill="#ffffff" stroke="#151b24" stroke-width="4.5"/><path d="M-18,-20 h36 M-18,-6 h36 M-18,8 h24 M-18,22 h30" stroke="#151b24" stroke-width="4" stroke-linecap="round"/></g><g transform="translate(1273.0,695) scale(0.75)"><polygon points="0.0,-44.0 11.8,-16.2 41.8,-13.6 19.0,6.2 25.9,35.6 0.0,20.0 -25.9,35.6 -19.0,6.2 -41.8,-13.6 -11.8,-16.2" fill="#e25a1c" stroke="#151b24" stroke-width="4.5" stroke-linejoin="round"/><circle r="7" fill="#ffd7c2"/></g>
+<text x="1235.0" y="818" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#151b24" text-anchor="middle" >Apply Notebook</text>
+<text x="1235.0" y="846" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >nb_apply_stream_events</text>
+<text x="1235.0" y="868" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >validate · dedupe · MERGE</text>
+<rect x="1280" y="624" width="64" height="28" rx="14" fill="#6c4fd8"/>
+<text x="1312" y="644" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle" >NEW</text>
+<path d="M314,735 L406,735" fill="none" stroke="#6c4fd8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ahn)"/>
+<text x="360.0" y="719" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#6c4fd8" text-anchor="middle" >JSON</text>
+<path d="M664,735 L756,735" fill="none" stroke="#6c4fd8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ahn)"/>
+<text x="710.0" y="719" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#6c4fd8" text-anchor="middle" >sink</text>
+<path d="M1014,735 L1106,735" fill="none" stroke="#6c4fd8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ahn)"/>
+<text x="1060.0" y="719" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#6c4fd8" text-anchor="middle" >batch</text>
+<rect x="1460" y="400" width="250" height="270" rx="22" fill="#ffffff" stroke="#b9c1cc" stroke-width="2.5"/>
+<g transform="translate(1585.0,515) scale(1.3)"><path d="M-38,-34 v68 a38,13 0 0 0 76,0 v-68" fill="#2b7bd6" stroke="#151b24" stroke-width="5"/>
+<ellipse cx="0" cy="-34" rx="38" ry="13" fill="#7fb8f5" stroke="#151b24" stroke-width="5"/>
+<path d="M-38,-8 a38,13 0 0 0 76,0 M-38,16 a38,13 0 0 0 76,0" fill="none" stroke="#151b24" stroke-width="4"/>
+<text x="0" y="40" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">SQL</text></g>
+<text x="1585.0" y="608" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#151b24" text-anchor="middle" >Fabric SQL Database</text>
+<text x="1585.0" y="636" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >the app&#x27;s database</text>
+<text x="1585.0" y="658" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="middle" >Employees · Depts · Titles</text>
+<path d="M314,305 L1300,305 C1400,305 1380,490 1456,490" fill="none" stroke="#151b24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="820" y="289" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#5d6878" text-anchor="middle" >GraphQL · signed-in users (RBAC)</text>
+<path d="M1364,735 C1585.0,735 1585.0,735 1585.0,674" fill="none" stroke="#6c4fd8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ahn)"/>
+<text x="1599.0" y="710" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#6c4fd8" text-anchor="start" >MERGE upsert / delete</text>
+<rect x="1830" y="130" width="430" height="750" rx="22" fill="#f7f9fb" stroke="#b9c1cc" stroke-width="2.5" stroke-dasharray="12 10"/>
+<text x="1860" y="174" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#151b24" text-anchor="start" >Existing pipeline</text>
+<text x="1860" y="202" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#5d6878" text-anchor="start" >reused as-is · no changes</text>
+<g transform="translate(1902,280) scale(0.62)"><path d="M0,-46 C22,-18 38,0 38,18 a38,30 0 0 1 -76,0 C-38,0 -22,-18 0,-46z" fill="#2fb6a8" stroke="#151b24" stroke-width="5"/>
+<path d="M-28,14 q9,-8 18,0 t18,0 t18,0" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+<path d="M-24,30 q8,-7 16,0 t16,0 t16,0" fill="none" stroke="#bff0e9" stroke-width="4" stroke-linecap="round"/>
+<g transform="translate(34,-30)"><circle r="17" fill="#ffffff" stroke="#151b24" stroke-width="4"/><path d="M-8,-2 a9,9 0 0 1 15,-5 M8,2 a9,9 0 0 1 -15,5" fill="none" stroke="#5b4bb7" stroke-width="3.5" stroke-linecap="round"/><path d="M5,-11 l3,5 l-6,1z M-5,11 l-3,-5 l6,-1z" fill="#5b4bb7"/></g></g>
+<text x="1960" y="276" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#151b24" text-anchor="start" >OneLake replication</text>
+<text x="1960" y="302" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="start" >SQL DB → Delta (auto)</text>
+<path d="M1902,322 L1902,364" fill="none" stroke="#151b24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<g transform="translate(1902,408) scale(0.62)"><path d="M-16,8 l-14,40 l14,-8 l10,14 l8,-40z" fill="#2f6fd0" stroke="#151b24" stroke-width="3"/><path d="M16,8 l14,40 l-14,-8 l-10,14 l-8,-40z" fill="#4a8ae8" stroke="#151b24" stroke-width="3"/>
+<polygon points="34.0,0.0 28.4,5.7 31.4,13.0 24.1,16.1 24.0,24.0 16.1,24.1 13.0,31.4 5.7,28.4 0.0,34.0 -5.7,28.4 -13.0,31.4 -16.1,24.1 -24.0,24.0 -24.1,16.1 -31.4,13.0 -28.4,5.7 -34.0,0.0 -28.4,-5.7 -31.4,-13.0 -24.1,-16.1 -24.0,-24.0 -16.1,-24.1 -13.0,-31.4 -5.7,-28.4 -0.0,-34.0 5.7,-28.4 13.0,-31.4 16.1,-24.1 24.0,-24.0 24.1,-16.1 31.4,-13.0 28.4,-5.7" fill="#c97a40" stroke="#151b24" stroke-width="3"/>
+<circle r="22" fill="url(#bronze)" stroke="#151b24" stroke-width="3"/><circle r="15" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2.5"/></g>
+<text x="1960" y="404" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#151b24" text-anchor="start" >Bronze · nb_bronze</text>
+<text x="1960" y="430" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="start" >CDC _op I/U/D, row hash</text>
+<path d="M1902,450 L1902,492" fill="none" stroke="#151b24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<g transform="translate(1902,536) scale(0.62)"><path d="M-16,8 l-14,40 l14,-8 l10,14 l8,-40z" fill="#2f6fd0" stroke="#151b24" stroke-width="3"/><path d="M16,8 l14,40 l-14,-8 l-10,14 l-8,-40z" fill="#4a8ae8" stroke="#151b24" stroke-width="3"/>
+<polygon points="34.0,0.0 28.4,5.7 31.4,13.0 24.1,16.1 24.0,24.0 16.1,24.1 13.0,31.4 5.7,28.4 0.0,34.0 -5.7,28.4 -13.0,31.4 -16.1,24.1 -24.0,24.0 -24.1,16.1 -31.4,13.0 -28.4,5.7 -34.0,0.0 -28.4,-5.7 -31.4,-13.0 -24.1,-16.1 -24.0,-24.0 -16.1,-24.1 -13.0,-31.4 -5.7,-28.4 -0.0,-34.0 5.7,-28.4 13.0,-31.4 16.1,-24.1 24.0,-24.0 24.1,-16.1 31.4,-13.0 28.4,-5.7" fill="#8f99a6" stroke="#151b24" stroke-width="3"/>
+<circle r="22" fill="url(#silver)" stroke="#151b24" stroke-width="3"/><circle r="15" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2.5"/></g>
+<text x="1960" y="532" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#151b24" text-anchor="start" >Silver · nb_silver</text>
+<text x="1960" y="558" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="start" >latest per id, validation</text>
+<path d="M1902,578 L1902,620" fill="none" stroke="#151b24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<g transform="translate(1902,664) scale(0.62)"><path d="M-16,8 l-14,40 l14,-8 l10,14 l8,-40z" fill="#2f6fd0" stroke="#151b24" stroke-width="3"/><path d="M16,8 l14,40 l-14,-8 l-10,14 l-8,-40z" fill="#4a8ae8" stroke="#151b24" stroke-width="3"/>
+<polygon points="34.0,0.0 28.4,5.7 31.4,13.0 24.1,16.1 24.0,24.0 16.1,24.1 13.0,31.4 5.7,28.4 0.0,34.0 -5.7,28.4 -13.0,31.4 -16.1,24.1 -24.0,24.0 -24.1,16.1 -31.4,13.0 -28.4,5.7 -34.0,0.0 -28.4,-5.7 -31.4,-13.0 -24.1,-16.1 -24.0,-24.0 -16.1,-24.1 -13.0,-31.4 -5.7,-28.4 -0.0,-34.0 5.7,-28.4 13.0,-31.4 16.1,-24.1 24.0,-24.0 24.1,-16.1 31.4,-13.0 28.4,-5.7" fill="#c99700" stroke="#151b24" stroke-width="3"/>
+<circle r="22" fill="url(#gold)" stroke="#151b24" stroke-width="3"/><circle r="15" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2.5"/></g>
+<text x="1960" y="660" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#151b24" text-anchor="start" >Gold · warehouse</text>
+<text x="1960" y="686" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="start" >SCD2 dims + daily facts</text>
+<path d="M1902,706 L1902,748" fill="none" stroke="#151b24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<g transform="translate(1902,792) scale(0.75)"><rect x="-34" y="0" width="20" height="40" rx="4" fill="#f9d95c" stroke="#151b24" stroke-width="4.5"/>
+<rect x="-10" y="-22" width="20" height="62" rx="4" fill="#f2c811" stroke="#151b24" stroke-width="4.5"/>
+<rect x="14" y="-44" width="20" height="84" rx="4" fill="#d9a400" stroke="#151b24" stroke-width="4.5"/></g>
+<text x="1960" y="788" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#151b24" text-anchor="start" >Power BI</text>
+<text x="1960" y="814" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5d6878" text-anchor="start" >Direct Lake model · report</text>
+<path d="M1714,515 C1750,515 1740,280 1826,280" fill="none" stroke="#151b24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="1756" y="440" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#5d6878" text-anchor="start" >replicate</text>
+<rect x="60" y="940" width="1000" height="320" rx="22" fill="#ffffff" stroke="#b9c1cc" stroke-width="2.5"/>
+<text x="90" y="980" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#151b24" text-anchor="start" >Event payload (one JSON per event)</text>
+<text x="90" y="1022" font-family="Menlo, Consolas, monospace" font-size="16" font-weight="500" fill="#151b24" text-anchor="start" xml:space="preserve">{ &quot;event_id&quot;:   &quot;4f1c9a2e-…&quot;,            ← dedupe key</text>
+<text x="90" y="1050" font-family="Menlo, Consolas, monospace" font-size="16" font-weight="500" fill="#151b24" text-anchor="start" xml:space="preserve">  &quot;event_type&quot;: &quot;employee.updated&quot;,      ← created | updated | deleted</text>
+<text x="90" y="1078" font-family="Menlo, Consolas, monospace" font-size="16" font-weight="500" fill="#151b24" text-anchor="start" xml:space="preserve">  &quot;event_time&quot;: &quot;2026-10-21T09:14:03Z&quot;,</text>
+<text x="90" y="1106" font-family="Menlo, Consolas, monospace" font-size="16" font-weight="500" fill="#151b24" text-anchor="start" xml:space="preserve">  &quot;source&quot;:     &quot;hr-feed-simulator&quot;,</text>
+<text x="90" y="1134" font-family="Menlo, Consolas, monospace" font-size="16" font-weight="500" fill="#151b24" text-anchor="start" xml:space="preserve">  &quot;employee&quot;: { &quot;EmployeeID&quot;: 900042, &quot;FullName&quot;: &quot;Aisha Khan&quot;,</text>
+<text x="90" y="1162" font-family="Menlo, Consolas, monospace" font-size="16" font-weight="500" fill="#151b24" text-anchor="start" xml:space="preserve">                &quot;Email&quot;: &quot;aisha.khan@example.com&quot;, &quot;Salary&quot;: 84500.00,</text>
+<text x="90" y="1190" font-family="Menlo, Consolas, monospace" font-size="16" font-weight="500" fill="#151b24" text-anchor="start" xml:space="preserve">                &quot;JoiningDate&quot;: &quot;2024-03-11&quot;,</text>
+<text x="90" y="1218" font-family="Menlo, Consolas, monospace" font-size="16" font-weight="500" fill="#151b24" text-anchor="start" xml:space="preserve">                &quot;Department&quot;: &quot;Engineering&quot;, &quot;JobTitle&quot;: &quot;Data Engineer&quot; } }</text>
+<rect x="1110" y="940" width="1150" height="320" rx="22" fill="#fbfaff" stroke="#6c4fd8" stroke-width="2.5"/>
+<text x="1140" y="980" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#6c4fd8" text-anchor="start" >Apply rules (notebook → SQL database)</text>
+<text x="1140" y="1022" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#151b24" text-anchor="start" >1  Idempotent: an event_id already applied is skipped</text>
+<text x="1140" y="1054" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#151b24" text-anchor="start" >2  Ordered: per EmployeeID, only the newest event_time wins</text>
+<text x="1140" y="1086" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#151b24" text-anchor="start" >3  created / updated → upsert by EmployeeID · deleted → delete row</text>
+<text x="1140" y="1118" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#151b24" text-anchor="start" >4  Department / JobTitle names → dept_id / title_id lookup</text>
+<text x="1140" y="1150" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#151b24" text-anchor="start" >5  CreatedBy / UpdatedBy = a &#x27;stream-ingest&#x27; user in AppUsers</text>
+<text x="1140" y="1182" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#151b24" text-anchor="start" >6  Bad events (unknown dept, missing email…) → lakehouse rejects table</text>
+<text x="1140" y="1214" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#151b24" text-anchor="start" >7  Stream EmployeeIDs use a reserved range (900000+), no clash with the app</text>
+</svg>
